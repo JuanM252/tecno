@@ -8,7 +8,7 @@ import lombok.Data;
 public class LoginDto {
 
     @NotBlank
-    private String documentos;
+    private String documento;
 
     @NotBlank
     private String password;
